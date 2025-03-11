@@ -20,11 +20,6 @@ I am a passionate Machine Learning Engineer with extensive experience designing 
   - Designing algorithms for resource allocation and complex scheduling problems  
   - Applying metaheuristics (e.g., genetic algorithms, simulated annealing) for industrial use cases  
 
-## News
-
-- **[Feb. 2020]** test.
-
-
-{% include_relative _includes/publications.md %}
+{% include_relative _includes/project.md %}
 
 {% include_relative _includes/services.md %}
