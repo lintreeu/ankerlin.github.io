@@ -7,7 +7,12 @@
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <!-- You can replace this with a relevant project thumbnail -->
-    <img src="path_to_image" class="teaser img-fluid z-depth-1" style="width=100;height=40%">
+    <img 
+  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAI AAAA BAAQAAAAe4Mh9AAABm0lEQVR4nO2ZMU7DQBCFv3EXjMEXmAE3SAR+qzFCVFWyQAgkrRScIq05Qp5gI08qCKQiZc7zxxqu5lgn8Z5z7d5EMDwZGAQFj8m6Tn+2y8GlZRXDvBLjMT4FYpS2HUhFUbd9JeJ8ZDDgtXOU5LWR0k1FrTQXA/ARzD2MOvEbrQuFXIsQkR9nKx+IbRkujkB+kUCmw5MyccBlzGFzA4i9Kjg6N/n2uq7NH/OEuUPvz8cs+ujNQTI1Az0Wuv8+nJgaom3XFkIAAwpo/UMsn3Tt4xPiZPBqLPTSlNheLrrYOT0/n6HuKq9m24gpNBUVXOpMu19a/lOYrk/Kq8JRDPsXN07V3ZpdMGM8ma8dzZpyi3Q4h3F0NRFah/colhTZ8Cu+Z2KlyzTm8F1fxnEER/BLgrjHdSwlFxU2HwkG3y6O8h2ZQawAAAAASUVORK5CYII=" 
+  alt="Visual AI Model Compilation & Execution + LLM Dialogue System Icon" 
+  width="128" 
+  height="64" 
+/>
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
       <!-- You can replace the link, title, and other information as needed -->
