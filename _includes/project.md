@@ -54,8 +54,5 @@
     <br>
   </ol>
 </div>
-
-</body>
-</html>
 <br>
 </div>
