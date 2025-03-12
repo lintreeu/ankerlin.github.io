@@ -8,7 +8,7 @@
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <!-- You can replace this with a relevant project thumbnail -->
     <img 
-  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAI AAAA BAAQAAAAe4Mh9AAABm0lEQVR4nO2ZMU7DQBCFv3EXjMEXmAE3SAR+qzFCVFWyQAgkrRScIq05Qp5gI08qCKQiZc7zxxqu5lgn8Z5z7d5EMDwZGAQFj8m6Tn+2y8GlZRXDvBLjMT4FYpS2HUhFUbd9JeJ8ZDDgtXOU5LWR0k1FrTQXA/ARzD2MOvEbrQuFXIsQkR9nKx+IbRkujkB+kUCmw5MyccBlzGFzA4i9Kjg6N/n2uq7NH/OEuUPvz8cs+ujNQTI1Az0Wuv8+nJgaom3XFkIAAwpo/UMsn3Tt4xPiZPBqLPTSlNheLrrYOT0/n6HuKq9m24gpNBUVXOpMu19a/lOYrk/Kq8JRDPsXN07V3ZpdMGM8ma8dzZpyi3Q4h3F0NRFah/colhTZ8Cu+Z2KlyzTm8F1fxnEER/BLgrjHdSwlFxU2HwkG3y6O8h2ZQawAAAAASUVORK5CYII=" 
+  src="" 
   alt="Visual AI Model Compilation & Execution + LLM Dialogue System Icon" 
   width="128" 
   height="64" 
@@ -37,6 +37,30 @@
   </div>
 </div>
 </li>
+<br>
+<!-- Education Section -->
+<h2 id="education" style="margin: 2px 0px -15px;">Education</h2>
+<div class="education">
+  <ol class="bibliography">
+    <li>
+      <div>
+        <div class="title">ABC University, Department of Computer Science</div>
+        <div class="periodical"><em>2018 - 2022</em></div>
+      </div>
+    </li>
+    <br>
+    <li>
+      <div>
+        <div class="title">XYZ University, Department of Information Engineering</div>
+        <div class="periodical"><em>2014 - 2018</em></div>
+      </div>
+    </li>
+    <br>
+  </ol>
+</div>
+
+</body>
+</html>
 <br>
 
 </ol>
