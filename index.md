@@ -8,9 +8,10 @@ I am a passionate Machine Learning Engineer with extensive experience designing 
 
 ## Research Interests
 
-- **AI Compiler**  
-  - Developing compiler optimizations specialized for deep learning workloads  
-  - Exploring LLVM-based tooling for hardware-aware code generation  
+- **Edge AI**  
+    - Developing compiler optimizations specialized for deep learning workloads for resource-constrained hardware
+    - Exploring LLVM-based tooling for hardware-aware code generation  
+    - AI Compiler frameworks like TVM for performance optimization  
 
 - **GPU Acceleration**  
   - Utilizing CUDA, Tensor Cores, and parallel computing techniques for high-performance training and inference  
@@ -21,5 +22,3 @@ I am a passionate Machine Learning Engineer with extensive experience designing 
   - Applying metaheuristics (e.g., genetic algorithms, simulated annealing) for industrial use cases  
 
 {% include_relative _includes/project.md %}
-
-{% include_relative _includes/services.md %}
