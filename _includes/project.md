@@ -3,49 +3,35 @@
 <div class="project">
 <ol class="bibliography">
 
-{% for link in site.data.publications.main %}
-
 <li>
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    {% if link.image %} 
-    <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width=100;height=40%">
-    {% if link.conference_short %} 
-    <abbr class="badge">{{ link.conference_short }}</abbr>
-    {% endif %}
-    {% endif %}
+    <!-- 可自行替換成專案相關縮圖 -->
+    <img src="path_to_image" class="teaser img-fluid z-depth-1" style="width=100;height=40%">
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
-      <div class="author">{{ link.authors }}</div>
-      <div class="periodical"><em>{{ link.conference }}</em>
+      <!-- 可自行替換連結、標題等資訊 -->
+      <div class="title"><a href="link_to_pdf_or_project_page">可視化 AI 模型編譯執行 + LLM對話系統</a></div>
+      <div class="author">Project Team</div>
+      <div class="periodical"><em>2023</em></div>
+
+      <div class="links">
+        <!-- 可依需求添加或移除按鈕 -->
+        <a href="link_to_pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+        <a href="link_to_code" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
+        <a href="link_to_page" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
       </div>
-    <div class="links">
-      {% if link.pdf %} 
-      <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
-      {% endif %}
-      {% if link.code %} 
-      <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
-      {% endif %}
-      {% if link.page %} 
-      <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
-      {% endif %}
-      {% if link.bibtex %} 
-      <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
-      {% endif %}
-      {% if link.notes %} 
-      <strong> <i style="color:#e74d3c">{{ link.notes }}</i></strong>
-      {% endif %}
-      {% if link.others %} 
-      {{ link.others }}
-      {% endif %}
-    </div>
+
+      <p style="margin-top: 10px; font-size:14px;">
+        這個專案透過 WebAssembly/WebGPU 在瀏覽器端編譯與執行 AI 模型（含小型 LLM），
+        並提供互動式對話介面。使用者可即時觀察模型推論過程中的計算強度、
+        耗時與記憶體使用等效能指標，並在可視化介面中追蹤 operator fusion
+        的執行情況，體驗逐 Token 產生的動態推理與性能分析。
+      </p>
   </div>
 </div>
 </li>
 <br>
-
-{% endfor %}
 
 </ol>
 </div>
