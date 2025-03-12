@@ -10,7 +10,7 @@
       <!-- You can replace the link, title, and other information as needed -->
       <div class="title"><a href="link_to_pdf_or_project_page">Browser-Based Visual LLM Model Compilation & Execution</a></div>
       <div class="author">Project Team</div>
-      <div class="periodical"><em>2023</em></div>
+      <div class="periodical"><em>2025</em></div>
 
       <div class="links">
         <!-- You can add or remove buttons as needed -->
