@@ -1,7 +1,6 @@
 # Basic Information 
 title: Yu-Chun Lin
-position: Senior Machine Learning Engineer
-affiliation: Your Affiliation
+position: Senior AI Engineer
 email: lintreeu@gmail.com
 
 # Search Engine Optimization (SEO)
@@ -14,7 +13,8 @@ canonical: https://minimal-light-theme.yliu.me/
 # If you don't need one of them, you may delete the corresponding line.
 cv_link: assets/files/curriculum_vitae.pdf
 github_link: https://github.com/lintreeu
-linkedin: https://www.linkedin.com/in/yu-chun-anker-lin-246b7a72/
+medium: https://medium.com/@ankerlin
+linkedin: https://www.linkedin.com/in/ankerlin/
 
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
